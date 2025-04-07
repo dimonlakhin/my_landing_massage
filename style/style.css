@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+  }
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  .menu {
+    background-image: url('/img/fon2.jpg');
+    border-bottom: 1px solid #333;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .navigation {
+    max-width: 725px;        
+    width: 100%;              
+    margin: 0 auto;        
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+
+  .nav {
+    max-width: 400px;
+  }
+
+  .nav-item {
+    text-decoration: none; 
+    margin: 18px;
+    color: black;
+  }
+
+  .icon {
+    width: 30px;
+  }
+
+  .text-h1 {
+    margin-top: 5px;
+  }
+  
+  .content-section1 {
+    display: flex;
+    margin: auto;
+    max-width: 750px;
+    align-items: center; 
+    gap: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  .buttons a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 8px 15px;
+  }
+  .buttons a:hover {
+    transform: scale(1.05);
+  }
+
+  .about-me {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('/img/fon1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .about-me img {
+    max-width: 300px;
+    object-fit: cover;
+  }
+  
+  .avatar1 {
+    border-radius: 50%;
+  }
+
+  .about-me h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .text-massage {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  .contact-link {
+    background-image: url('/img/fon2.jpg');
+    background-size: cover; /* Растягивает фон без искажений */
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    margin-left: auto;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 12px;
+    margin-top: 15px;
+    color: black;
+    border: 1px solid #333;
+    border-radius: 10px; 
+    cursor: pointer;
+  }
+
+  .buttons-link {
+    max-width: 750px;
+    margin: auto;
+  }
+
+  #services {
+    background-image: url('/img/fon2.jpg');
+    padding: 50px 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+  .service {
+    background-image: url('/img/fon1.jpg');
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+
+  #benefits {
+    background-image: url('/img/fon1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .galery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .galery-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .content-text {
+    max-width: 300px;
+  }
+
+  .content-foto {
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 0 40px;
+  }
+
+  #contacts {
+    background-image: url('/img/fon2.jpg');
+    text-align: center;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .contacts-link {
+    margin: 0 10px;
+  }
+
+  .adres {
+    text-decoration: none;
+  }
+
+  .adres-text {
+    margin-bottom: 30px;
+  }
+
+  .footer-text {
+    text-align: center;
+    padding-top: 30px;
+    color: #333; 
+    font-size: 14px;
+  }
+  
+  @media (max-width: 780px) {
+     .galery-block {
+      flex-direction: column;
+     }
+    #block-2 {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .content-section1 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .about-me img {
+      max-width: 280px;
+    }
+
+    .content-foto {
+      max-width: 280px;
+    }
+    
+  }
+
+  @media (max-width: 500px) {
+    .navigation{
+      justify-content: space-around;
+    }
+
+    .telefone {
+      position: absolute;
+      display: none;
+    }
+
+    .buttons a {
+      margin: 8px 12px;
+    }
+
+    .nav-item {
+      margin: 8px;
+     
+    }
+    
+  }
+
+  @media (max-width: 374px) {
+    .nav-item {
+      margin: 6px;
+    }
+
+    .buttons a {
+      margin: 10px;
+    }
+  }
