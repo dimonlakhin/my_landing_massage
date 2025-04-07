@@ -17,7 +17,7 @@ body {
   }
 
   .menu {
-    background-image: url('./img/fon2.jpg');
+    background-image: url('../img/fon2.jpg');
     border-bottom: 1px solid #333;
     background-size: cover; 
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('./img/fon1.jpg');
+    background-image: url('../img/fon1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -112,8 +112,8 @@ body {
   }
 
   .contact-link {
-    background-image: url('./img/fon2.jpg');
-    background-size: cover; /* Растягивает фон без искажений */
+    background-image: url('../img/fon2.jpg');
+    background-size: cover; 
     background-position: center;
     display: flex;
     align-items: center;
@@ -136,14 +136,14 @@ body {
   }
 
   #services {
-    background-image: url('./img/fon2.jpg');
+    background-image: url('../img/fon2.jpg');
     padding: 50px 20px;
     text-align: center;
     background-size: cover;
     background-position: center;
   }
   .service {
-    background-image: url('./img/fon1.jpg');
+    background-image: url('../img/fon1.jpg');
     padding: 20px;
     margin: 10px auto;
     border-radius: 10px;
@@ -152,7 +152,7 @@ body {
   }
 
   #benefits {
-    background-image: url('./img/fon1.jpg');
+    background-image: url('../img/fon1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -181,7 +181,7 @@ body {
   }
 
   #contacts {
-    background-image: url('./img/fon2.jpg');
+    background-image: url('../img/fon2.jpg');
     text-align: center;
   }
 
