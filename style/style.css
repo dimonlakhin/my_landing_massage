@@ -214,6 +214,14 @@ body {
     color: #333; 
     font-size: 14px;
   }
+
+.work-time1 {
+    margin-bottom: 0px;
+  }
+
+  .work-time2 {
+    margin: 0px;  
+  }
   
   @media (max-width: 780px) {
      .galery-block {
