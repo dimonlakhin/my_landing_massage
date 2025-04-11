@@ -222,6 +222,10 @@ body {
   .work-time2 {
     margin: 0px;  
   }
+
+  .tel-contact {
+    text-decoration: none;
+  }
   
   @media (max-width: 780px) {
      .galery-block {
